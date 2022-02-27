@@ -111,4 +111,4 @@ systemctl enable --now mongod.service
 
 # install unifi
 echo 'JAVA_HOME="$( readlink -f "$( which java )" | sed "s:bin/.*$::" )"' > /etc/default/unifi
-apt install unifi --no-install-recommends -y
+apt install unifi -y
